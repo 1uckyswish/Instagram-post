@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+}
+
+html{
+  color-scheme: dark light;
+}
+
+img, picture, svg, video{
+  display: block;
+  max-width: 100%;
+}
+
+:root{
+  --White-Body: #ffffff;
+  --Black-Text: #262626;
+  --Grey-Text: #8E8E8E;
+  --Blue-Hash:#00376B;
+  --Weight-600: 600;
+  --Weight-400: 400;
+}
+
+
