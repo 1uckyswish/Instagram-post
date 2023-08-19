@@ -1,0 +1,51 @@
+body{
+background-color: rgba(78, 78, 78, 0.25);
+}
+
+.post-container{
+    display: flex;
+    margin: 10%;
+    background-color: white;
+}
+
+.comment-section{
+    width: 100%;
+}
+
+.comment-header{
+    height: auto;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.img-user-box{
+    display: flex;
+    width: 30%;
+}
+
+.username-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-section img{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 0 5px;
+    object-fit: cover;
+}
+.info-box{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-box p{
+    margin: 2px;
+}
+

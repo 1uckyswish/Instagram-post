@@ -1,27 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
+*{
   margin: 0;
   padding: 0;
-  font: inherit;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
-body{
-  min-height: 100vh;
-}
-
 html{
-  color-scheme: dark light;
+  scroll-behavior: smooth;
 }
 
-img, picture, svg, video{
-  display: block;
-  max-width: 100%;
+a{
+  text-decoration: none;
 }
+
 
 :root{
   --White-Body: #ffffff;
