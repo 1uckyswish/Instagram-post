@@ -1,12 +1,11 @@
 import React from 'react'
-import image1 from "../src/assets/Suit.png";
+import Post from './Components/Post';
 
 function App() {
   return (
-    <div>
-      <p>Hello</p>
-      <img src={image1} />
-    </div>
+    <>
+     <Post/>
+    </>
   )
 }
 
