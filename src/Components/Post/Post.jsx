@@ -7,11 +7,13 @@ import pfp2 from "../../assets/Pfp/Image2.png"
 import { FiMoreHorizontal } from "react-icons/fi";
 import data from '../../Utils/data'
 import ActionBox from '../ActionBox/ActionBox'
+import { MdArrowForwardIos } from "react-icons/md";
 
 function Post() {
   return (
     <div className='post-container'>
       <img src={SuitMan} alt="Post image"/>
+      <MdArrowForwardIos id='right-arrow'/>
         <div className='comment-section'>
           <div className='comment-header'>
 
