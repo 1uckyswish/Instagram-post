@@ -6,6 +6,7 @@ background-color: rgba(78, 78, 78, 0.25);
     display: flex;
     margin: 10%;
     background-color: white;
+    width: auto;
 }
 
 .comment-section{
@@ -15,37 +16,63 @@ background-color: rgba(78, 78, 78, 0.25);
 .comment-header{
     height: auto;
     display: flex;
-    padding: 10px 10px;
+    height: 70px;
+    padding: 0 10px;
+      border-bottom: 1px solid var(--Border-Grey);
 }
 
 .img-user-box{
     display: flex;
-    width: 30%;
+    width: auto;
 }
 
 .username-section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .username-section img{
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    padding: 0 5px;
-    object-fit: cover;
+    border-radius: 49%;
+    -webkit-border-radius: 49%;
+    -moz-border-radius: 49%;
+    -ms-border-radius: 49%;
+    -o-border-radius: 49%;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: 10px;
 }
+
+#image-under{
+  position: absolute;
+  top: 170px;
+  left:40.7%;
+  z-index: 2;
+  border: 1px solid white;
+}
+
+#image-over{
+    z-index: 1;
+}
+
 .info-box{
     display: flex;
     height: auto;
     flex-direction: column;
-    width: 100%;
 }
 
 .info-box p{
     margin: 2px;
+}
+
+.info-box span{
+    font-weight: 600;
+}
+.info-box p:last-child{
+    font-size: 11px;
+    font-weight: 400;
 }
 
