@@ -1,0 +1,6 @@
+.action-container{
+    border: 2px solid red;
+    height: 25.5vh;
+    display: flex;
+    flex-direction: column;
+}

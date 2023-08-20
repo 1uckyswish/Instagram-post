@@ -6,6 +6,7 @@ import pfp1 from "../../assets/Pfp/Image1.png"
 import pfp2 from "../../assets/Pfp/Image2.png"
 import { FiMoreHorizontal } from "react-icons/fi";
 import data from '../../Utils/data'
+import ActionBox from '../ActionBox/ActionBox'
 
 function Post() {
   return (
@@ -29,6 +30,7 @@ function Post() {
              {
               data.map((item)=> <Comment data={item} key={item.Id}/>)
              }
+            <ActionBox />
         </div>
     </div>
   )

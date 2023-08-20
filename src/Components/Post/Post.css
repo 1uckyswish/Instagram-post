@@ -11,6 +11,7 @@ background-color: rgba(78, 78, 78, 0.25);
 
 .comment-section{
     width: 100%;
+    position: relative;
 }
 
 .comment-header{
@@ -48,8 +49,8 @@ background-color: rgba(78, 78, 78, 0.25);
 
 #image-under{
   position: absolute;
-  top: 170px;
-  left:40.7%;
+  top: 25px;
+  left:3.6%;
   z-index: 2;
   border: 1px solid white;
 }
