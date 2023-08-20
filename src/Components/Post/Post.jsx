@@ -3,6 +3,9 @@ import "./Post.css"
 import SuitMan from "../../../src/assets/Suit.png"
 import Comment from '../Comment/Comment'
 import pfp1 from "../../assets/Pfp/Image1.png"
+import pfp2 from "../../assets/Pfp/Image2.png"
+import { FiMoreHorizontal } from "react-icons/fi";
+import data from '../../Utils/data'
 
 function Post() {
   return (
@@ -13,16 +16,19 @@ function Post() {
 
             <div className='username-section'>
               <div className='img-user-box'>
-                 <img src={pfp1} />
+                 <img src={pfp2} id="image-under"/>
+                 <img src={pfp1} id="image-over"/>
                 <div className='info-box'>
-                <p>Hello from china</p>
-                <p>2013</p>
+                <p><span>{data[0].Username}</span> and <span>Openaidalle</span></p>
+                <p>2073</p>
               </div>
               </div>
-              <p>hi</p>
+              <FiMoreHorizontal />
             </div>
-
           </div>
+             {
+              data.map((item)=> <Comment data={item} key={item.Id}/>)
+             }
         </div>
     </div>
   )
