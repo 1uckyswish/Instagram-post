@@ -3,10 +3,28 @@ background-color: rgba(78, 78, 78, 0.25);
 }
 
 .post-container{
+    position: relative;
     display: flex;
     margin: 10%;
     background-color: white;
     width: auto;
+}
+
+#right-arrow{
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    background-color: rgb(177, 176, 176);
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .comment-section{

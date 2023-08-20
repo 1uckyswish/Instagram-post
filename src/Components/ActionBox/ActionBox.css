@@ -1,6 +1,85 @@
 .action-container{
-    border: 2px solid red;
     height: 25.5vh;
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #EFEFEF;
+}
+
+.action-icon-container{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.three-icon-container{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.action-icon-container svg{
+    font-size: 1.8em;
+}
+
+.action-liked-container{
+    height: 80px;
+    padding: 8px 20px 80px 20px;
+}
+
+.post-liked-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.post-liked-container img{
+     border-radius: 49%;
+    -webkit-border-radius: 49%;
+    -moz-border-radius: 49%;
+    -ms-border-radius: 49%;
+    -o-border-radius: 49%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.post-liked-container span{
+    font-weight: 600;
+}
+
+.post-timestamp{
+    color: var(--Grey-Text);
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.action-add-comment-container{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.icon-comment-section{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-comment-section svg{
+    font-size: 1.5em;
+    padding-bottom: 2px;
+}
+
+#add-post-btn{
+    color: #B3DBFF;
+    font-weight: 600;
 }
