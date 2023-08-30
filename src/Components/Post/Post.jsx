@@ -5,7 +5,7 @@ import Comment from '../Comment/Comment'
 import pfp1 from "../../assets/Pfp/Image1.png"
 import pfp2 from "../../assets/Pfp/Image2.png"
 import { FiMoreHorizontal } from "react-icons/fi";
-import data from '../../Utils/data'
+import {data} from '../../Utils/data'
 import ActionBox from '../ActionBox/ActionBox'
 import { MdArrowForwardIos } from "react-icons/md";
 

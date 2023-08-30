@@ -21,7 +21,7 @@ function Header() {
         <header>
             <img src={Logo} alt="Logo" />
             <div className='search-container'>
-                <AiOutlineSearch style={{ display: search ? 'block' : 'none' }} />
+                <AiOutlineSearch style={{ display: search ? 'flex' : 'none' }} />
                 <input type='text' placeholder='         Search' onInput={handleInput} />
             </div>
             <div className='header-icons-container'>
