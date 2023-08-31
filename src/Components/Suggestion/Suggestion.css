@@ -1,0 +1,35 @@
+.suggestion-container{
+    height: 287px;
+}
+
+.suggestion-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion-header p:first-child{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+color:#8E8E8E;
+}
+
+.suggestion-header p:last-child{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 600;
+color: #0095F6;
+}
+
+.suggestion-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suggestion-card{
+   width: 174px;
+height: 196px;
+border: 1px solid red;
+margin-top: 35px;
+}
