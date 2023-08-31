@@ -5,7 +5,6 @@ import { userData } from '../../Utils/data';
 
 function LivePfp() {
    const dataForlive= userData[1].users;
-   console.log(dataForlive)
   return (
     <div className='live-container'>
         <div className='image-container'>
