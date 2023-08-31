@@ -2,5 +2,25 @@
     border: 2px solid red;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    align-items: center;
+    position: relative;
+}
+
+.recommendation-section{
+    position: absolute;
+    border: 2px solid red;
+    width: 351px;
+height: 360px;
+top: 20px;
+right: 50px;
+}
+
+.timeline-section{
+     position: absolute;
+    /* border: 2px solid red; */
+    width: 510px;
+    height: 97vh;
+    top: 20px;
+    right: 480px;
 }

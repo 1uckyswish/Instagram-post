@@ -91,7 +91,7 @@ const userData = [
       },
       {
         username: "roy",
-        src: roy, 
+        src: sara, 
       },
     ]
   },
