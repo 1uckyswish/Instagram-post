@@ -28,8 +28,57 @@ color: #0095F6;
 }
 
 .suggestion-card{
-   width: 174px;
-height: 196px;
-border: 1px solid red;
-margin-top: 35px;
+    width: 174px;
+    height: 196px;
+    border: 1px solid #dfdbdb;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#cancel-btn{
+    color: #D0D0D0;
+    position: absolute;
+    top: 15px;
+    right: 13px;
+}
+
+.suggestion-card p{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.suggestion-card p:nth-child(3){
+    color: #262626;
+    margin-top: 20px;
+}
+
+.suggestion-card p:nth-child(4){
+    color: #8E8E8E;
+    padding-top: 2px;
+    margin-bottom: 10px;
+}
+
+.suggestion-card button{
+    color: white;
+    background-color: #0095F6;
+    border: none;
+    padding: 7px 21px 7px 19px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }

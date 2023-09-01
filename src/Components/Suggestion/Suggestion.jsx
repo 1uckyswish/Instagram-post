@@ -1,7 +1,9 @@
-import React from 'react';
 import "./Suggestion.css"
+import { userData } from '../../Utils/data';
+import SuggestCard from './SuggestCard';
 
 function Suggestion() {
+    const suggestions = userData[2].users.slice(0,2);
   return (
     <div className='suggestion-container'>
        <div className='suggestion-header'>
@@ -9,8 +11,11 @@ function Suggestion() {
         <p>See all</p>
        </div>
        <div className='suggestion-card-container'>
-        <div className='suggestion-card'></div>
-        <div className='suggestion-card'></div>
+        {
+            suggestions.map((item)=>{
+                return <SuggestCard {...item}/>
+            })
+        }
        </div>
     </div>
   )

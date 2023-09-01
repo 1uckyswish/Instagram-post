@@ -24,6 +24,9 @@
 
 .post-card-container p{
     padding-left: 8px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
 }
 
 .user-image-post{

@@ -20,7 +20,7 @@ function Homepage() {
         <div className='timeline-section'>
           <LivePfp />
           {singleUser.map((user, index) => {
-            if (index === 0) {
+            if (index === 1) {
               return (
                 <>
                   <PostCard {...user} key={index} />
